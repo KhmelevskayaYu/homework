@@ -1,10 +1,9 @@
-#include <iostream>
+#include <iostream> //some includes
 #include <string>
-using  namespace std;
 
-int main(){
-	string name;
-	getline(cin, name);
-	cout<<"Hello world from "<<name;
+int main(){ //function main
+	std::string name; // string variable
+	getline(std::cin, name); // username promt
+	std::cout<<"Hello world from "<<name<<std::endl;// printing message
 	return 0;
 }
