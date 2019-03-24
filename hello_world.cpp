@@ -1,9 +1,9 @@
-#include <iostream>
+#include <iostream> //some includes
 #include <string>
 
-int main(){
-	std::string name;
-	getline(std::cin, name);
-	std::cout<<"Hello world from "<<name<<std::endl;
+int main(){ //function main
+	std::string name; // string variable
+	getline(std::cin, name); // username promt
+	std::cout<<"Hello world from "<<name<<std::endl;// printing message
 	return 0;
 }
